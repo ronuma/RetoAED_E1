@@ -7,7 +7,12 @@ clc
 fprintf("Despeja el diferencial en la ecuación.");
 fprintf("\n¿Es posible dejar todos los témrinos de y de un lado y los de x del otro?");
 
-continuar = input("\n(0) no\n(1) sí");
+continuar = input("\n(-1) no, (1) sí\n");
 
 if continuar == 1
-    
+    % ejecutar el resto del programa
+elseif continuar == 0
+    fprintf("No se puede resolver por este método, intenta otro.\n");
+else
+    fprintf("Selección inválida, reinicie el programa");
+end
