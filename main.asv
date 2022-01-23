@@ -17,10 +17,9 @@ if continuar == 1
     g = input("\nIngresa g (la expresión que multiplica a dy): ");
     F = int(f);
     G = int(g);
-    fprintf("\nSolución implícita general:");
-    fprintf("\n%s", G);
-    fprintf(" = %s", F);
-    fprintf(" + C");
+    fprintf("\n%s", F);
+    fprintf("\nLado izquierdo de la ecuación: %s", G);
+    fprintf("\nEn este momento ya tienes una solución implícita general.");
     fprintf("\nPara conseguir la explícita, despeja y para que quede en términos de x.");
 elseif continuar == 0
     fprintf("No se puede resolver por este método, intenta otro.\n");
