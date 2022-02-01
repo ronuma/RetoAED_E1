@@ -14,11 +14,11 @@ if continuar == 1
     syms x y;
     px = input("\nIngresa p(x): ");
     qx = input("\nIngresa q(x): ");
-    intFact = int(px);
+    intFact = int(px + 0*x);
     factInt = exp(intFact);
     ladoDer = factInt * qx;
     ladoIzqFinal = y; % el factor integrante queda representado divdiendo cuando se muestra la solución
-    ladoDerFinal = int(ladoDer);
+    ladoDerFinal = int(ladoDer + 0*x);
     fprintf("\nSolución explícita general:");
     fprintf("\n%s", ladoIzqFinal);
     fprintf(" = ( %s", ladoDerFinal);

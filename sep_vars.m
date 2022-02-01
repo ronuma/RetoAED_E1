@@ -15,8 +15,8 @@ if continuar == 1
     fprintf("f sea la función que multiplica a dx y g a dy.");
     f = input("\nIngresa f (la expresión que multiplica a dx): ");
     g = input("\nIngresa g (la expresión que multiplica a dy): ");
-    F = int(f);
-    G = int(g);
+    F = int(f + 0*x);
+    G = int(g + 0*y, y);
     fprintf("\nSolución implícita general:");
     fprintf("\n%s", G);
     fprintf(" = %s", F);

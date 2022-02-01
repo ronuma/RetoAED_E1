@@ -1,1 +1,1 @@
-se necesita por variables separables, factor integrante, cambio de variable, orden superior y variación de parámetros.
+se necesita por cambio de variable, orden superior y variación de parámetros.
