@@ -27,10 +27,3 @@ elseif continuar == 0
 else
     fprintf("Selección inválida, reinicie el programa");
 end
-
-%   Este solo es un ejemplo para ver como integrar en MATLAB
-
-%   syms x;
-%   y = (x.^3)+(2*(x.^2))-x+3;
-%   int(y)
-%   int(y)
