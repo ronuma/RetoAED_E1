@@ -4,9 +4,9 @@ clc
 
 % resolver ecuaciones diferenciales por metodo de factor integrante %
 
-fprintf("Para este método, la ecuación debe ser lineal de primer orden y tener la siguiente forma:");
+fprintf("Para este método, la ecuación debe ser lineal, de primer orden y tener la siguiente forma:");
 fprintf("\ny' + p(x)y = q(x)");
-fprintf("\n¿Es lineal de primer orden y es posible escribirla de esta forma (se pueden hacer manipulaciones algebraicas)?");
+fprintf("\n¿Es lineal, de primer orden y es posible escribirla de esta forma? (se pueden hacer manipulaciones algebraicas)");
 
 continuar = input("\n(0) no, (1) sí\n");
 

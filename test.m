@@ -2,5 +2,5 @@ clear all
 clear workspace
 clc
 
-syms x;
-int(2*x + 0*x)
+syms x y;
+u = x*diff(y,x);
