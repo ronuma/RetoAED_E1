@@ -11,7 +11,7 @@ polinomio = input("\n");
 
 syms x;
 m = roots(polinomio);
-fprintf("\nValores de las raíces del polinomio asociado: \n");
+fprintf("\nValores de las raíces (m) del polinomio asociado: \n");
 
 for i = 1:grado
     fprintf(" %.2f,", m(i));
