@@ -4,10 +4,6 @@ clc
 
 % resolver ecuaciones diferenciales por metodo de variables separables %
 
-% RUBRO 4. Programar un código de MatLab para aplicarlo. CALIF. 18/20, 
-% ¿PODRÍAN FACTORIZAR LA ECUACIÓN ORIGINAL? 
-% ¿PODRÍAN OBTENER LA SOLUCIÓN EXPLÍCITA?
-
 fprintf("Despeja el diferencial en la ecuación.");
 fprintf("\nSi es posible, factoriza la expresión que queda del otro lado del diferencial.");
 fprintf("\n¿Es posible dejar todos los témrinos de y de un lado y los de x del otro?");
